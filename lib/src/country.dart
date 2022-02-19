@@ -1,6 +1,7 @@
 import 'package:pub_countries/src/continent.dart';
 import 'package:equatable/equatable.dart';
 
+/// Information about a country
 class Country extends Equatable {
 
   const Country({
