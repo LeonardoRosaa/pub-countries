@@ -1,17 +1,15 @@
 name: pub_countries
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# homepage: https://www.example.com
+description: It's a simple package to help does handler with countries around world.
+version: 0.0.2
+repository: https://github.com/LeonardoRosaa/pub-countries
 
 environment:
   sdk: '>=2.15.0 <3.0.0'
 
-
-# dependencies:
-#   path: ^1.8.0
+dependencies: 
+  collection: ^1.15.0
+  equatable: ^2.0.3
 
 dev_dependencies:
   lints: ^1.0.0
   test: ^1.16.0
-dependencies: 
-  equatable: ^2.0.3
