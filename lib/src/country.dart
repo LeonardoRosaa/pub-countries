@@ -3,7 +3,6 @@ import 'package:equatable/equatable.dart';
 
 /// Information about a country
 class Country extends Equatable {
-
   const Country({
     required this.name,
     required this.alpha2,
@@ -12,25 +11,25 @@ class Country extends Equatable {
   });
 
   /// The country name
-  /// 
+  ///
   /// Example: `Brazil`
   final String name;
 
   /// The country alpha2 code
-  /// 
+  ///
   /// Example: `BR`
-  /// 
+  ///
   /// Can read more `alpha2` code here:
   /// https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#:~:text=ISO%203166%2D1%20alpha%2D2%20codes%20are%20two%2Dletter,special%20areas%20of%20geographical%20interest.
   final String alpha2;
 
   /// The country dialing code
-  /// 
+  ///
   /// Example: `+55`
   final String dialingCode;
 
   /// The continent where country it is
-  /// 
+  ///
   /// Example: `South America`
   final Continent continent;
 

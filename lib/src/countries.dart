@@ -3,10 +3,9 @@ import 'package:pub_countries/src/continent.dart';
 import 'package:pub_countries/src/country.dart';
 
 /// It's one of most important class in the package.
-/// 
+///
 /// Can access all countries record and methods to use them
 class Countries {
-
   static const brazil = Country(
     name: 'Brazil',
     alpha2: 'BR',

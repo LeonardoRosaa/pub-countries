@@ -51,7 +51,7 @@ void main() {
   });
 
   test('get countries by continent', () {
-    final result =  Countries.getByContinent(Continent.europe);
+    final result = Countries.getByContinent(Continent.europe);
     expect(result, isA<List<Country>>());
     expect(result.isNotEmpty, true);
   });
